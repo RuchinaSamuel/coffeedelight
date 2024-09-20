@@ -1,0 +1,389 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #fffff0;
+    
+
+}
+
+.header-content{
+    width: 100%;
+    height: 70px;
+    background-color: skyblue;
+    margin-bottom: 30px;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+}
+
+.header-list{
+    display: flex;
+    align-items: center;  
+    margin-top: -45px;
+}
+
+
+.header-list li{
+  list-style: none;
+  display: inline-block;
+  padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header-list a{
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+ 
+  }
+  .header-content .closeup{
+    width: 100%;
+    height: 20px;
+    background-color: #cfb2b4;
+    margin-top: -51px;
+  }
+  .header-content .closeup1{
+    width: 50%;
+    height: 20px;
+    background-color: #000080;
+    margin-left: 25%;
+    position: absolute;
+    margin-top: -20px;
+  }
+  .image-slider figure img{
+    float: left;
+    width: 20%;
+    height: 600px;
+    
+  }
+
+  .image-slider{
+    overflow: hidden;
+    background-image: url(bckall.jpg);
+    padding: 20px;
+  }
+
+  .image-slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+  }
+  @keyframes slider{
+    0%{
+        left: 0;
+    }
+
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: 100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+    left: -400%;
+    }
+  }
+.body-container{
+width: 100%;
+height: 100%;
+}
+
+.book-container{
+    padding: 10px;
+}
+
+.cofee-head{
+    text-align: center;
+    
+}
+.buy-button a{
+    text-decoration: none;
+
+}
+
+
+.buy-button{
+    text-align: center;
+    padding: 20px;
+}
+
+.buy-button button{
+    width: 100px;
+    border: 3px solid #000080;
+    border-radius: 10px;
+    height: 30px;
+    font-weight: 500;
+    background-color: #000080;
+    color: white;
+}
+.ribbon img{
+    margin-top: 0;
+    height: 200px;
+    width: 200px;
+   
+}
+
+.ribbon-content{
+    margin-top: 50px;
+}
+
+.ribbon{
+   height: 200px;
+   width: 200px;
+   margin-bottom: -50px;
+   
+}
+
+.ribbon-design .img1 img{
+    position: absolute;
+    height: 200px;
+    margin-top: -150px;
+    left: 210px;
+    border-radius: 20px;
+    width: 200px;
+}
+
+
+.ribbon-design .img2 img{
+    position: absolute;
+    height: 200px;
+    margin-top: -150px;
+    left: 420px;
+    border-radius: 20px;
+    width: 200px;
+}
+.ribbon-design .img3 img{
+    position: absolute;
+    height: 200px;
+    margin-top: -150px;
+    left: 630px;
+    border-radius: 20px;
+    width: 200px;
+}
+
+.ribbon-design .img4 img{
+    position: absolute;
+    height: 200px;
+    margin-top: -150px;
+    left: 840px;
+    border-radius: 20px;
+    width: 200px;
+}
+
+.ribbon-design .img5 img{
+    position: absolute;
+    height: 200px;
+    margin-top: -150px;
+   left: 1052px;
+    border-radius: 20px;
+    width: 200px;
+}
+.cofee-head h1{
+font-size: 50px;
+
+    }
+.cofee-head h6{
+padding: 0;
+margin-top: -12px;
+font-size: 25px;
+}
+
+.image img{
+    height: 200px;
+    width: 150px;
+    margin-top: 30px;
+}
+
+.image{
+    text-align: center;
+}
+
+.book-container{
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.book-content{
+    padding-top: 80px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin: auto;
+  margin-top: 30px;
+  
+}
+.book-content .text{
+    float: left;
+    padding: 40px;
+    width: 50%;
+}
+.book-content img{
+    height: 350px;
+    width: 580px;
+position: absolute;  
+float: left;  
+margin-top: 6%;
+}
+
+.book-content #image1{
+    position: absolute;
+    padding-top: 2%;
+    margin-top: 33%;
+    height: 350px;
+}
+.text h2{
+    text-align: center;
+    font-size: 30px;
+   
+}
+hr{
+   color: #000080;
+   margin-bottom: 80px;
+
+}
+.card-content{
+    margin-top: 900px;
+    padding: 20px;
+    /* margin-left: -200px;
+    margin-right: 50px; */
+}
+ 
+
+.card-content .card-text h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card{
+    margin-top: 50px;
+    margin-right: 20px;
+   
+}
+
+.card img{
+    height: 300px;
+    
+}
+
+.card-text img{
+    height: 30px;
+}
+
+#coffee1{
+    margin-top: 82px;
+}
+
+#coffee2{
+    margin-top: 105px;
+}
+
+/* section 3 */
+
+.section3{
+    margin-top: 50px;
+ 
+}
+
+.section-text h1{
+text-align: center;
+}
+
+#card2{
+  position: relative; 
+  top: -370px; 
+  left: 660px;
+  
+}
+
+.section1-head{
+    margin-right: 40px;
+    margin-left: 40px;
+    padding: 5PX;
+} 
+
+.section1-head .card img{
+    height: 200px;
+    
+} 
+
+#bookcover{
+    width: 200px;
+    height: 250px;
+}
+
+.card-body .buy-button a{
+    text-decoration: none;
+
+}
+
+
+.card-body .buy-button{
+    text-align: center;
+    padding: 20px;
+}
+
+.card-body .buy-button button{
+    width: 100px;
+    border: 3px solid #000080;
+    border-radius: 10px;
+    height: 30px;
+    font-weight: 500;
+    background-color: #000080;
+    color: white;
+}
+
+/* section end */
+
+
+.section4{
+   position: relative;
+   top: -420px;
+ 
+}
+
+.section-body{
+    height: 1500px;
+}
+
+.section5{
+    position: relative;
+    top: -840px;
+  
+ } 
+
+ .section6{
+    position: relative;
+    top: -1260px;
+    
+ } 
+
+
+
+
+
+ .footer-content{
+    width: 100%;
+    height: 450px;
+    background-color: skyblue;
+    margin-top: 100px;
+ }
