@@ -387,3 +387,79 @@ text-align: center;
     background-color: skyblue;
     margin-top: 100px;
  }
+
+ .footer-content li{
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 25px;
+    
+ }
+
+ #faq{
+margin-top: -390px;
+position: absolute;
+justify-content: center;
+left: 230px;
+ }
+
+
+ #faq h5{
+  margin-left: 107px;
+  padding: 10px;
+ }
+
+#line{
+    height:450px ;
+    width: 3px;
+    background-color:#000080 ;
+    margin-top:-400px; ;
+    margin-left: 200px;
+}
+
+#line1{
+    height:450px ;
+    width: 3px;
+    background-color:#000080 ;
+    margin-top:-450px; ;
+    margin-left: 630px;
+}
+
+#line2{
+    height:450px ;
+    width: 3px;
+    background-color:#000080 ;
+    margin-top:-450px; ;
+    margin-left: 1010px;
+}
+.about{
+    width: 360px;
+    margin-top:-395px ;
+    margin-left: 640px;
+    padding: 10px;
+}
+
+.about h5{
+    margin-left: 107px;
+  padding: 10px;
+}
+
+.about p{
+    text-align: justify;
+    font-size: 14px;
+}
+
+.location{
+    width: 280px;
+    margin-top:-310px ;
+    margin-left: 1020px;
+    padding: 10px;   
+}
+
+
+.location p{
+    text-align: justify;
+    font-size: 14px;
+}
+
